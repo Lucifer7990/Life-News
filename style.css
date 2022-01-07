@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background: #f0f5ff;
+    margin-top: 40px;
+}
+.heading{
+    padding: 3%;
+    border-bottom: 2px solid #141b29;
+}
+.headtr{
+    padding: 20px;
+    width:80%;
+    margin: auto;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+/* ---------- home ---------- */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#141b29ce,#141b29ce),url(img/jorgen-hendriksen-HsB4t2NvtLo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------- nav ---------- */
+
+nav{
+    display: flex;
+    z-index: 5;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left:50%;
+    transform: translate(-50%);
+    width: 100%;
+    padding: 1% 10%;
+    background-color: #141b29;
+}
+nav img{
+    width: 60px;
+    filter: invert(1);
+}
+.menu ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.menu ul li a{
+    color:#7c818d;
+}
+.menu ul li a:hover{
+    color:#ffffff;
+}
+.logo{
+    width: 20px;
+    display: none;
+}
+.menu{
+    overflow: hidden;
+}
+
+/* ---------- middle area ---------- */
+
+.search{
+    color: #d9dee9;
+    width: 80%;
+    text-align: center;
+    margin: 17% 0;
+    padding: 0 10%;
+}
+.search h1{
+    font-size: 64px;
+}
+.search p{
+    color: #7c818d;
+}
+input{
+    padding: 10px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+/* ---------- banner area ----------  */
+
+.banner{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+.bnr{
+    width: 500%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    animation: anime 20s linear infinite;
+}
+@keyframes anime {
+    0%{
+        left: 0;
+    }
+    11.11%{
+        left: 0;
+    }
+    22.22%{
+        left: -100%;
+    }
+    33.33%{
+        left: -100%;
+    }
+    44.44%{
+        left: -200%;
+    }
+    55.55%{
+        left: -200%;
+    }
+    66.66%{
+        left: -300%;
+    }
+    77.77%{
+        left: -300%;
+    }
+    88.88%{
+        left: -400%;
+    }
+    99.99%{
+        left: -400%;
+    }
+}
+.ip
+{
+    width: 20%;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+
+
+.ny{
+    background-image: linear-gradient(#141b2977,#141b2977),url(img/jorgen-hendriksen-HsB4t2NvtLo-unsplash.jpg);
+}
+.lo{
+    background-image: linear-gradient(#141b2977,#141b2977),url(img/blaz-erzetic-g5f0BJq-FRs-unsplash.jpg);
+}
+.bns{
+    background-image: linear-gradient(#141b2977,#141b2977),url(img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+}
+.sp{
+    background-image: linear-gradient(#141b2977,#141b2977),url(img/courtney-cook-SsIIw_MET0E-unsplash.jpg);
+}
+.go{
+    background-image: linear-gradient(#141b2977,#141b2977),url(img/download\ fantasy\ world\ wallpaper\ which\ is\ under\ the\ fantasy\ wallpapers.jpg);
+
+}
+
+/* ---------- category area ---------- */
+
+.cats{
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.cat{
+    border-radius: 15px;
+    margin: 5%;
+    padding: 15% 0;
+    background:#141b29;
+    text-align: center;
+    color: #d9dee9;
+    background-position: center;
+    background-size: cover;
+}
+.a{
+    background-image: linear-gradient(#141b29cc,#141b29cc),url(img/courtney-cook-SsIIw_MET0E-unsplash.jpg);
+}
+.b{
+    background-image: linear-gradient(#141b29cc,#141b29cc),url(img/sean-pollock-PhYq704ffdA-unsplash.jpg);
+}
+.c{
+    background-image: linear-gradient(#141b29cc,#141b29cc),url(img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+}
+.d{
+    background-image: linear-gradient(#141b29cc,#141b29cc),url(img/blaz-erzetic-g5f0BJq-FRs-unsplash.jpg);
+}
+.e{
+    background-image: linear-gradient(#141b29cc,#141b29cc),url(img/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
+}
+.f{
+    background-image: linear-gradient(#141b29cc,#141b29cc),url(img/maxim-hopman-fiXLQXAhCfk-unsplash.jpg);
+}
+
+/* ---------- blogs area ---------- */
+
+
+.blogs{
+    width: 90%;
+    margin: 6% auto;
+}
+.blogs a{
+    color: #141b29;
+}
+.blg{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border-bottom: 1px solid silver ;
+}
+.txt{
+    margin: 0 2%;
+}
+.blg img{
+    width:200px;
+    height: 120px;
+}
+.p{
+    margin-top:3% ;
+}
+
+/* ----------page nav ---------- */
+
+.page-nav{
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+}
+.page-nav span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    padding: 10px;   
+}
+.page-nav a{
+    margin: 1%;
+    color: #141b29;
+}
+.nv{
+    background-color: #d9dee9;
+}
+.active{
+    background-color: #141b29;
+    color: #f0f5ff;
+}
+
+/* ---------- footer area ---------- */
+
+.footer{
+    background-color: #141b29;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+.dd img{
+    width: 100px;
+    filter: invert(1);
+}
+.wdt{
+    width: 80%;
+    margin:auto;
+}
+
+/* ---------- footer links area ---------- */
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.link a{
+    color: #d9dee9;
+}
+.m{
+    color: #f0f5ff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.i img{
+    width :20px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+.i{
+    display: flex;
+    margin-top: 6px;
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 4%;
+    color: #7c818d;
+    border-top: 1px solid silver;
+}
+
+
+/* ---------- for blog page---------- */
+
+.blg-cont{
+    width: 80%;
+    margin: calc(3% + 40px) auto;
+}
+.img-blg{
+    width: 80%;
+    margin: 3% auto;
+}
+.img-blg img{
+    width: 100%;
+}
+.txt-blg{
+    margin: 5% 0;
+    text-align: justify;
+}
+.txt-blg p,
+.txt-blg h2{
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.courser{
+    cursor: pointer;
+}
+
+/* ---------- media quary ---------- */
+
+@media (max-width:700px) {
+    .menu ul li{
+        display: block;
+        margin: auto 20px;
+    }
+    .menu ul{
+        position: absolute;
+        top: 0;
+        right: -300px;
+        width: 200px;
+        height: 100vh;
+        background-color: #141b29;
+        padding: 10px 20px;
+        z-index: 2;
+
+    }
+    .logo{
+        display: block;
+    }
+    .search h1{
+        font-size: 32px;
+    }
+    .search{
+        padding: 0;
+        margin: 30% 0;
+    }
+    input{
+        width: 100%        
+    } 
+    .cats{ 
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+    .blg{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blg img{
+        width:100%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+    
+    .txt-blg h1{
+        font-size: 24px;
+    }
+    .txt-blg p{
+        font-size: 13px;
+    }
+    .txt-blg h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:900px) and (min-width:699px) {
+    .cats{ 
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+}
