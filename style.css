@@ -7,6 +7,9 @@
     text-decoration: none;
 
 }
+p{
+    Line-height:30px;
+}
 body{
     background: #f0f5ff;
     margin-top: 40px;
